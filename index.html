@@ -3,8 +3,7 @@
   Author: Ashlyn Knox
   Fixed by: Joao Santiago
   Date: September 4th, 2025
-  Comment: This file was fixed using feedback from the html validator and my old web development 1 assignements.
-           Fixed only actual errors and warnings that affected the validation, didn't do things like adding a body tag 
+  Comment: This file was fixed using feedback from the html validator and my old web development 1 assignements.      
 -->
 
 <!doctype html>
@@ -16,94 +15,92 @@
     <link rel="stylesheet" href="main.css"> <!--Removed the trailing slash as is not needed in HTML 5-->
     <script src="index.js"></script>
   </head>
-  <div>
-    <div>
+  <body> <!--Replaced this div for the body-->
+    <header> <!--Replaced this div with for a header-->
       <h1> SAIT Software Developer Program Web 2 Assignment 1</h1> <!--Closed the first <h1> tag-->
       <p>
         Complete the JavaScript exercises below. Check the console for output
         and fill in the results on this page.
       </p>
-    </div>
-  </div> <!--Closed the first <div> tag-->
-  <div>
-      <main> <!--Added <main> tag-->
-        <section id="exercise-1">
-          <h2>Exercise 1: Print Character Names</h2> <!--Changed all other <h1> tags to <h2> tags so it passes validation with no warnings-->
-          <p>Print out the names of each character in the console.</p>
-          <div class="output">
-            <h2>Results:</h2><!--Changed all other <h1> tags to <h2> tags so it passes validation with no warnings-->
-            <ul id="names-list">
-              <!-- Character names will be populated here -->
-            </ul>
-          </div>
-        </section>
+    </header>
+    <main> <!--Replaced this div with for a main-->
+      <section id="exercise-1">
+        <h2>Exercise 1: Print Character Names</h2> <!--Changed all other <h1> tags to <h2> tags so it passes validation with no warnings-->
+        <p>Print out the names of each character in the console.</p>
+        <div class="output">
+          <h2>Results:</h2><!--Changed all other <h1> tags to <h2> tags so it passes validation with no warnings-->
+          <ul id="names-list">
+            <!-- Character names will be populated here -->
+          </ul>
+        </div>
+      </section>
 
-        <section id="exercise-2">
-          <h2>Exercise 2: Filter by Age</h2> <!--Changed all other <h1> tags to <h2> tags so it passes validation with no warnings-->
-          <p>Print out the names of characters whose age is less than 40.</p>
-          <div class="output">
-            <h2>Results:</h2> <!--Changed all other <h1> tags to <h2> tags so it passes validation with no warnings-->
-            <ul id="young-characters-list">
-              <!-- Filtered character names will be populated here -->
-            </ul>
-          </div>
-        </section>
+      <section id="exercise-2">
+        <h2>Exercise 2: Filter by Age</h2> <!--Changed all other <h1> tags to <h2> tags so it passes validation with no warnings-->
+        <p>Print out the names of characters whose age is less than 40.</p>
+        <div class="output">
+          <h2>Results:</h2> <!--Changed all other <h1> tags to <h2> tags so it passes validation with no warnings-->
+          <ul id="young-characters-list">
+            <!-- Filtered character names will be populated here -->
+          </ul>
+        </div>
+      </section>
 
-        <section id="exercise-3">
-          <h2>Exercise 3: Reusable Function for Lists</h2> <!--Changed all other <h1> tags to <h2> tags so it passes validation with no warnings-->
-          <p>
-            Create a function that takes any array and renders a list of character
-            names on the page.
-          </p>
-          <div class="output">
-            <h2>Results:</h2> <!--Changed all other <h1> tags to <h2> tags so it passes validation with no warnings-->
-            <ul id="function-list">
-              <!-- Function-generated list will be populated here -->
-            </ul>
-          </div>
-        </section>
+      <section id="exercise-3">
+        <h2>Exercise 3: Reusable Function for Lists</h2> <!--Changed all other <h1> tags to <h2> tags so it passes validation with no warnings-->
+        <p>
+          Create a function that takes any array and renders a list of character
+          names on the page.
+        </p>
+        <div class="output">
+          <h2>Results:</h2> <!--Changed all other <h1> tags to <h2> tags so it passes validation with no warnings-->
+          <ul id="function-list">
+            <!-- Function-generated list will be populated here -->
+          </ul>
+        </div>
+      </section>
 
-        <section id="exercise-4">
-          <h2>Exercise 4: Age Filter Function</h2> <!--Changed all other <h1> tags to <h2> tags so it passes validation with no warnings-->
-          <p>
-            Create a function that takes an array and an age threshold, then
-            displays characters below that age.
-          </p>
-          <div class="output">
-            <h2>Results:</h2> <!--Changed all other <h1> tags to <h2> tags so it passes validation with no warnings-->
-            <ul id="age-filter-list">
-              <!-- Age-filtered results will be populated here -->
-            </ul>
-          </div>
-        </section>
+      <section id="exercise-4">
+        <h2>Exercise 4: Age Filter Function</h2> <!--Changed all other <h1> tags to <h2> tags so it passes validation with no warnings-->
+        <p>
+          Create a function that takes an array and an age threshold, then
+          displays characters below that age.
+        </p>
+        <div class="output">
+          <h2>Results:</h2> <!--Changed all other <h1> tags to <h2> tags so it passes validation with no warnings-->
+          <ul id="age-filter-list">
+            <!-- Age-filtered results will be populated here -->
+          </ul>
+        </div>
+      </section>
 
-        <section id="exercise-5">
-          <h2>Exercise 5: Error Handling</h2> <!--Changed all other <h1> tags to <h2> tags so it passes validation with no warnings-->
-          <p>Add error handling to check if objects have a "name" property.</p>
-          <div class="output">
-            <h2>Results:</h2> <!--Changed all other <h1> tags to <h2> tags so it passes validation with no warnings-->
-            <ul id="error-handling-list">
-              <!-- Error-handled results will be populated here -->
-            </ul>
-            <div id="error-messages">
-              <!-- Error messages will be displayed here -->
-            </div>
+      <section id="exercise-5">
+        <h2>Exercise 5: Error Handling</h2> <!--Changed all other <h1> tags to <h2> tags so it passes validation with no warnings-->
+        <p>Add error handling to check if objects have a "name" property.</p>
+        <div class="output">
+          <h2>Results:</h2> <!--Changed all other <h1> tags to <h2> tags so it passes validation with no warnings-->
+          <ul id="error-handling-list">
+            <!-- Error-handled results will be populated here -->
+          </ul>
+          <div id="error-messages">
+            <!-- Error messages will be displayed here -->
           </div>
-        </section>
+        </div>
+      </section>
 
-        <section id="exercise-6">
-          <h2>Exercise 6: Test Error Handling</h2> <!--Changed all other <h1> tags to <h2> tags so it passes validation with no warnings-->
-          <p>Test your error handling by using a broken array.</p>
-          <div class="output">
-            <h2>Results:</h2> <!--Changed all other <h1> tags to <h2> tags so it passes validation with no warnings-->
-            <ul id="broken-array-list">
-              <!-- Broken array test results will be populated here -->
-            </ul>
-            <div id="broken-array-errors">
-              <!-- Error messages from broken array will be displayed here -->
-            </div>
+      <section id="exercise-6">
+        <h2>Exercise 6: Test Error Handling</h2> <!--Changed all other <h1> tags to <h2> tags so it passes validation with no warnings-->
+        <p>Test your error handling by using a broken array.</p>
+        <div class="output">
+          <h2>Results:</h2> <!--Changed all other <h1> tags to <h2> tags so it passes validation with no warnings-->
+          <ul id="broken-array-list">
+            <!-- Broken array test results will be populated here -->
+          </ul>
+          <div id="broken-array-errors">
+            <!-- Error messages from broken array will be displayed here -->
           </div>
-        </section>
-      </main>
-    </div>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
