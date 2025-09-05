@@ -95,6 +95,7 @@ ul {
 }
 
 ul li {
+  color: black; /*Changed from grey to black for better readability*/
   background: white;
   margin-bottom: 0.5rem;
   padding: 0.75rem;
