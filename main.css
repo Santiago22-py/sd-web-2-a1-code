@@ -1,3 +1,11 @@
+/*
+  SD Web 2 Assignment 1
+  Author: Ashlyn Knox
+  Fixed by: Joao Santiago
+  Date: September 4th, 2025
+  Comment: Adjusted line height for the body and changed a few colors for better constrast and readability.
+*/
+
 /* Reset and base styles */
 * {
   margin: 0;
@@ -7,7 +15,7 @@
 
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  line-height: 20;
+  line-height: 1.5; /*Adjusted line height according to what was done in web dev 1, makes the page more readable*/
   color: lightgrey;
   background-color: #f5f5f5;
   padding: 20px;
@@ -59,7 +67,7 @@ section h2 {
 }
 
 section p {
-  color: #666;
+  color: #39FF14; /*Changed from grey to neon green for better contrast*/
   margin-bottom: 1rem;
   font-size: 1rem;
 }
@@ -73,7 +81,7 @@ section p {
   margin-top: 1rem;
 }
 
-.output h3 {
+.output h2 { /*Changed from h3 to h2 as we never used h3 tags in our html file*/
   color: #495057;
   font-size: 1.1rem;
   margin-bottom: 0.75rem;
