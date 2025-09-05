@@ -117,9 +117,10 @@ ul li:last-child {
 #error-messages,
 #broken-array-errors {
   margin-top: 1rem;
+  color: red
 }
 
-.error-message {
+.error-message{
   background-color: #f8d7da;
   color: #721c24;
   padding: 0.75rem;
